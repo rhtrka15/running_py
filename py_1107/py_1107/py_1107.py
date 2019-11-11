@@ -1,69 +1,69 @@
-print(1+1)
+print(1+1)                                                                #1+1의 값을 출력하는 것#
 
-print(52, 273 , "hello")
+print(52, 273 , "hello")                                                  #52와273 hello를 출력#
 
-print(" 안녕하세요","저의","이름은", "김 압둘라입니다.")
+print(" 안녕하세요","저의","이름은", "김 압둘라입니다.")                  #문단 띄어쓰기#
 
-print(123123,'\n',123123 ,sep='                        ')
+print(123123,'\n',123123 ,sep='                        ')                 #줄바꾸기 밑 줄바꾼 후 칸 띄우기#
 
-print("Hello world!")
+print("Hello world!")                                                     #hello world! 출력#
 
-a=2
-print(a)
-a="asdasdafasf"
-print(a)
-a=1.12312455
-print(a)
-a="a"
-print(a)
+a=2                         #변수 지정#
+print(a)                    #지정한 변수값 출력#
+a="asdasdafasf"             #변수 값을 문자로 지정#
+print(a)                    #변수 값 출력#
+a=1.12312455                #변수 값 실수로 지정#
+print(a)                    #변수 값 출력#
+a="a"                       #변수 값 문자로 지정#
+print(a)                    #변수 값 출력#
 
-a=input()
+a=input()                   #변수를 사용자에게 입력받음#
 
-print(a+'1234') #오버 라이딩#
+print(a+'1234') #오버 라이딩#    #입력 받은 변수 값에다가 추가 숫자를 뒤에다가 붙임#
 
-a=int(input())
-print(a)
-print(a+1234)
+a=int(input())              #변수를 정수로 받음#
+print(a)                    #변수 값 출력#
+print(a+1234)               #입력받은 변수 값+1234 출력#
 
-print("'안녕하세요'라고 말했습니다.")
+print("'안녕하세요'라고 말했습니다.")        #문자열에 '' 포함하기#
 
-print("\"배가고파요..\"라고 말했습니다.")
+print("\"배가고파요..\"라고 말했습니다.")    #문자열에 "" 포함하기#
 
-print("asdf"*3)
+print("asdf"*3)             #asdf를 3번 출력하게 됨#             
 
-print("문자 선택 연산자에 대해 알아볼까요?")
-print("안녕하세요"[0])
-print("안녕하세요"[1])
-print("안녕하세요"[2])
-print("안녕하세요"[3])
-print("안녕하세요"[4])
+print("문자 선택 연산자에 대해 알아볼까요?")   #문자 선택 연산자(인덱싱):[]#
+print("안녕하세요"[0])      #"안녕하세요" 라는 문자열의 0번인 "안"을 출력#
+print("안녕하세요"[1])      #"안녕하세요" 라는 문자열의 1번인 "녕"을 출력#
+print("안녕하세요"[2])      #"안녕하세요" 라는 문자열의 2번인 "하"을 출력#
+print("안녕하세요"[3])      #"안녕하세요" 라는 문자열의 3번인 "세"을 출력#
+print("안녕하세요"[4])      #"안녕하세요" 라는 문자열의 4번인 "요"을 출력#
 
-alp='abcdefghijklmnopqrstuvwxyz'
-print(alp[-26:-18])
+alp='abcdefghijklmnopqrstuvwxyz'     #슬라이싱 연습을 위한 알파벳 문자열#
+print(alp[-26:-18])                  #-26번인 a부터 -18번인 f까지 문자열을 출력함#
 
-print(len(alp))
-a=15
-b=8
+print(len(alp))             #변수alp에 저장된 문자열의 길이를 구함#
+a=15                        #변수 a에 15를 지정함#
+b=8                         #변수 b에 8을 지정함#
 
-print(a+b,a-b,a*b,a/b,a%b)
-print(a//b,a/b)
+print(a+b,a-b,a*b,a/b,a%b)  #변수a와b를 더하고 빼고 곱하고 나누고 나머지 값을 구하여 출력함#
+print(a//b,a/b)             #변수a와b를 나누엇을때 나머지는 버리는 계산식과 나누는 값#
 
-print(a**b)
+print(a**b)                 #a변수의 b승#
 
-a=input()
-print(a)
+a=input()                   #인풋으로 사용자에게 변수 지정받음#
+print(a)                    #지정받은 변수 출력#
 
-tmp=''
+
+#alp변수의 0번부터25번까지 차례대로 출력하는 식# 
+tmp=''                      
 for i in alp:
     tmp+=i
 print(tmp)
 
-a=input(숫자를 입력하시오:)
-print(a)
-
+#실수를 정수로 변환하는 식#
 a=4.1234
 b=a//1
-print("%d"(b))
+print("int"(b))
 
 
 
