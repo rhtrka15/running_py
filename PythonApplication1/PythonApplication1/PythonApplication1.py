@@ -26,9 +26,31 @@
 #elif b_y ==11:
 #    print("양띠 입니다!")
 
-st="hello"
+#st="hello"
 
-st.upper()
-print("A지점:",st)
+#st.upper()
+#print("A지점:",st)
 
-print("B지점:",st.upper())
+#print("B지점:",st.upper())
+
+#f=int(input("첫 번째 정수:"))
+
+#s=int(input("두 번째 정수:"))
+
+#if f>s:
+#    print("큰수는 ",f)
+#else:
+#    print("큰수는 ",s)
+
+str=input("문자열을 입력하시오 :")
+
+if len(str) % 2:
+    print(str[len(str)//2])
+else:
+    print(str[(len(str)//2 -1) : len(str)//2+1])
+
+
+print("숫자 게임에 오신 것을 환영합니다!")
+
+f=int(input("숫자를 맞춰보세요!:"))
+
